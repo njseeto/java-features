@@ -1,5 +1,6 @@
 import org.junit.Test;
 
+import java.util.function.BinaryOperator;
 import java.util.function.Function;
 import java.util.function.IntSupplier;
 
@@ -40,5 +41,15 @@ public class Lambdas {
 
         c = intSupplier.getAsInt();
         assert(c == 1);
+    }
+
+    @Test
+    public void Add(){
+        BinaryOperator<Long> add = (x, y) -> x + y;
+         Long x = Long.valueOf(2);
+         Long y = Long.valueOf(3);
+         Long a = add.apply(x, y);
+
+         assert(a == 5);
     }
 }
