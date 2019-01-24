@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="723096c9-a0a3-4a57-933c-85ab33f5ac71" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-features/Lambdas.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-features/Lambdas.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lambdas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lambdas.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -14,12 +14,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Lambdas.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="53" column="30" lean-forward="true" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
+            <state relative-caret-position="380">
+              <caret line="59" column="16" lean-forward="true" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,9 +57,24 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="java-features" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-features" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-features" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-features" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -69,7 +84,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548362885708" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548364052248" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -85,7 +100,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Lambdas.Add">
+  <component name="RunManager" selected="JUnit.Lambdas.GreaterThanFive">
     <configuration name="Lambdas" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-features" />
       <option name="PACKAGE_NAME" value="" />
@@ -114,11 +129,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lambdas.Length" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Lambdas.GreaterThanFive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-features" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Lambdas" />
-      <option name="METHOD_NAME" value="Length" />
+      <option name="METHOD_NAME" value="GreaterThanFive" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -136,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Lambdas.GreaterThanFive" />
         <item itemvalue="JUnit.Lambdas.Add" />
         <item itemvalue="JUnit.Lambdas" />
         <item itemvalue="JUnit.Lambdas.Fibonacci" />
         <item itemvalue="JUnit.Lambdas.TheMeaningOfLife" />
-        <item itemvalue="JUnit.Lambdas.Length" />
       </list>
     </recent_temporary>
   </component>
@@ -155,17 +170,12 @@
       <option name="presentableId" value="Default" />
       <updated>1548347149944</updated>
       <workItem from="1548347154913" duration="3863000" />
-      <workItem from="1548361507682" duration="668000" />
+      <workItem from="1548361507682" duration="905000" />
+      <workItem from="1548363770107" duration="234000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Lambdas_Length - 2019.01.24 at 16h 41m 14s.xml">
-      <configuration name="Lambdas.Length" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Lambdas_TheMeaningOfLife - 2019.01.24 at 16h 42m 08s.xml">
-      <configuration name="Lambdas.TheMeaningOfLife" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Lambdas_TheMeaningOfLife - 2019.01.24 at 16h 42m 14s.xml">
       <configuration name="Lambdas.TheMeaningOfLife" configurationId="JUnit" />
     </history-entry>
@@ -190,15 +200,21 @@
     <history-entry file="Lambdas_Add - 2019.01.24 at 20h 47m 07s.xml">
       <configuration name="Lambdas.Add" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Lambdas_Add - 2019.01.24 at 20h 47m 50s.xml">
+      <configuration name="Lambdas.Add" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Lambdas_Add - 2019.01.24 at 20h 48m 08s.xml">
+      <configuration name="Lambdas.Add" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4531000" />
+    <option name="totallyTimeSpent" value="5011000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="25" y="23" width="1652" height="975" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16521738" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16708075" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -251,7 +267,7 @@
     <entry file="file://$PROJECT_DIR$/src/Lambdas.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
-          <caret line="53" column="30" lean-forward="true" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
+          <caret line="62" column="5" lean-forward="true" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

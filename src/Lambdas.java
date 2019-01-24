@@ -3,6 +3,7 @@ import org.junit.Test;
 import java.util.function.BinaryOperator;
 import java.util.function.Function;
 import java.util.function.IntSupplier;
+import java.util.function.Predicate;
 
 public class Lambdas {
 
@@ -51,5 +52,15 @@ public class Lambdas {
          Long a = add.apply(x, y);
 
          assert(a == 5);
+    }
+
+    @Test
+    public void GreaterThanFive(){
+        Predicate<Integer> atLeast5 = x -> x > 5;
+        boolean a = atLeast5.test(6);
+        boolean b = atLeast5.test(1);
+
+        assert(a == true);
+        assert(b == false);
     }
 }
