@@ -3,13 +3,8 @@ import org.junit.Test;
 import javax.swing.text.DateFormatter;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 import java.util.function.*;
 
-import static java.util.Arrays.asList;
-import static java.util.Arrays.parallelPrefix;
 import static org.junit.Assert.assertEquals;
 
 public class Lambdas {
@@ -39,8 +34,7 @@ public class Lambdas {
         };
 
         Integer c = intSupplier.getAsInt();
-        assert(c == 42);
-
+        assert(c == 1);
     }
 
     @Test
