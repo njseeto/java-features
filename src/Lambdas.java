@@ -1,15 +1,24 @@
+import javafx.scene.input.DataFormat;
 import org.junit.Test;
 
-import java.util.function.BinaryOperator;
-import java.util.function.Function;
-import java.util.function.IntSupplier;
-import java.util.function.Predicate;
+import javax.swing.text.DateFormatter;
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.Locale;
+import java.util.function.*;
+
+import static java.text.DateFormat.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertThat;
 
 public class Lambdas {
 
     @Test
     public void Length(){
-        Function<String, Integer> lengthFunction = (String s) -> s.length();
+        Function<String, Integer> lengthFunction = s -> s.length();
         String a = "hello";
         Integer b = lengthFunction.apply(a);
 
@@ -27,21 +36,13 @@ public class Lambdas {
     @Test
     public void number(){
         IntSupplier intSupplier = () -> {
-            int previous = 0;
             int current = 1;
-
-            int nextValue = previous + current;
-            previous = current;
-            current = nextValue;
-            return previous;
-
+            return current;
         };
 
         Integer c = intSupplier.getAsInt();
-        assert(c == 1);
+        assert(c == 42);
 
-        c = intSupplier.getAsInt();
-        assert(c == 1);
     }
 
     @Test
@@ -63,4 +64,26 @@ public class Lambdas {
         assert(a == true);
         assert(b == false);
     }
+
+    @Test
+    public void DateFormatter() throws ParseException {
+        ThreadLocal<DateFormatter> formatter = ThreadLocal.withInitial(() -> new DateFormatter(new SimpleDateFormat("DD-MMM-YYYY")));
+        System.out.println(formatter.get().valueToString(01-01-2019));
+    }
+
+    @Test
+    public void Quote(){
+        Function<Integer, String> addLetter = a -> a + "a";
+        Function<Integer, String> intToString = Object::toString;
+        Function<String, String> quote = s -> "'" + s + "'";
+
+        Function<Integer, String> quoteIntToString = quote.compose(addLetter);
+        quoteIntToString = quote.compose(intToString);
+        //quoteIntToString = quote.compose(addLetter);
+
+        String a = quoteIntToString.apply(5);
+
+        assertEquals("'5'", a);
+    }
+
 }
