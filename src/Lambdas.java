@@ -1,18 +1,16 @@
-import javafx.scene.input.DataFormat;
 import org.junit.Test;
 
 import javax.swing.text.DateFormatter;
-import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.Locale;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 import java.util.function.*;
 
-import static java.text.DateFormat.*;
+import static java.util.Arrays.asList;
+import static java.util.Arrays.parallelPrefix;
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertThat;
 
 public class Lambdas {
 
@@ -85,5 +83,11 @@ public class Lambdas {
 
         assertEquals("'5'", a);
     }
+
+    @Test
+    public void LittleLetters(){
+        Consumer<String> c = (x) -> System.out.println(x.toLowerCase());
+        c.accept("HOW DO I TEST THIS?");
+     }
 
 }

@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="723096c9-a0a3-4a57-933c-85ab33f5ac71" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-features/Lambdas.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lambdas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lambdas.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Lambdas.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="81" column="54" lean-forward="true" selection-start-line="81" selection-start-column="54" selection-end-line="81" selection-end-column="54" />
+            <state relative-caret-position="534">
+              <caret line="90" column="8" selection-start-line="90" selection-start-column="8" selection-end-line="90" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,7 +52,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="20" />
+    <option name="x" value="563" />
     <option name="y" value="23" />
     <option name="width" value="1652" />
     <option name="height" value="975" />
@@ -91,7 +89,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548958703089" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548966580871" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GenericSQL" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -109,17 +107,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Lambdas.Quote">
-    <configuration name="Lambdas.Add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-features" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Lambdas" />
-      <option name="METHOD_NAME" value="Add" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Lambdas.LittleLetters">
     <configuration name="Lambdas.DateFormatter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-features" />
       <option name="PACKAGE_NAME" value="" />
@@ -130,11 +118,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lambdas.GreaterThanFive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Lambdas.ForEach" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-features" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Lambdas" />
-      <option name="METHOD_NAME" value="GreaterThanFive" />
+      <option name="METHOD_NAME" value="ForEach" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lambdas.LittleLetters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-features" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Lambdas" />
+      <option name="METHOD_NAME" value="LittleLetters" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -162,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Lambdas.LittleLetters" />
+        <item itemvalue="JUnit.Lambdas.ForEach" />
         <item itemvalue="JUnit.Lambdas.Quote" />
         <item itemvalue="JUnit.Lambdas.DateFormatter" />
         <item itemvalue="JUnit.Lambdas.number" />
-        <item itemvalue="JUnit.Lambdas.GreaterThanFive" />
-        <item itemvalue="JUnit.Lambdas.Add" />
       </list>
     </recent_temporary>
   </component>
@@ -182,50 +180,50 @@
       <updated>1548347149944</updated>
       <workItem from="1548347154913" duration="3863000" />
       <workItem from="1548361507682" duration="905000" />
-      <workItem from="1548363770107" duration="16426000" />
+      <workItem from="1548363770107" duration="19218000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Lambdas_Quote - 2019.01.31 at 16h 45m 37s.xml">
-      <configuration name="Lambdas.Quote" configurationId="JUnit" />
+    <history-entry file="Lambdas_ForEach - 2019.01.31 at 20h 11m 28s.xml">
+      <configuration name="Lambdas.ForEach" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Lambdas_Quote - 2019.01.31 at 16h 53m 47s.xml">
-      <configuration name="Lambdas.Quote" configurationId="JUnit" />
+    <history-entry file="Lambdas_ForEach - 2019.01.31 at 20h 11m 47s.xml">
+      <configuration name="Lambdas.ForEach" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Lambdas_Quote - 2019.01.31 at 16h 54m 16s.xml">
-      <configuration name="Lambdas.Quote" configurationId="JUnit" />
+    <history-entry file="Lambdas_ForEach - 2019.01.31 at 20h 14m 59s.xml">
+      <configuration name="Lambdas.ForEach" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Lambdas_Quote - 2019.01.31 at 16h 54m 22s.xml">
-      <configuration name="Lambdas.Quote" configurationId="JUnit" />
+    <history-entry file="Lambdas_ForEach - 2019.01.31 at 20h 17m 41s.xml">
+      <configuration name="Lambdas.ForEach" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Lambdas_Quote - 2019.01.31 at 16h 54m 33s.xml">
-      <configuration name="Lambdas.Quote" configurationId="JUnit" />
+    <history-entry file="Lambdas_LittleLetters - 2019.01.31 at 20h 18m 08s.xml">
+      <configuration name="Lambdas.LittleLetters" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Lambdas_Quote - 2019.01.31 at 16h 55m 24s.xml">
-      <configuration name="Lambdas.Quote" configurationId="JUnit" />
+    <history-entry file="Lambdas_LittleLetters - 2019.01.31 at 20h 18m 50s.xml">
+      <configuration name="Lambdas.LittleLetters" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Lambdas_Quote - 2019.01.31 at 16h 55m 33s.xml">
-      <configuration name="Lambdas.Quote" configurationId="JUnit" />
+    <history-entry file="Lambdas_LittleLetters - 2019.01.31 at 20h 18m 58s.xml">
+      <configuration name="Lambdas.LittleLetters" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Lambdas_Quote - 2019.01.31 at 16h 55m 40s.xml">
-      <configuration name="Lambdas.Quote" configurationId="JUnit" />
+    <history-entry file="Lambdas_LittleLetters - 2019.01.31 at 20h 20m 04s.xml">
+      <configuration name="Lambdas.LittleLetters" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Lambdas_Quote - 2019.01.31 at 16h 58m 13s.xml">
-      <configuration name="Lambdas.Quote" configurationId="JUnit" />
+    <history-entry file="Lambdas_LittleLetters - 2019.01.31 at 20h 20m 58s.xml">
+      <configuration name="Lambdas.LittleLetters" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Lambdas_Quote - 2019.01.31 at 17h 01m 31s.xml">
-      <configuration name="Lambdas.Quote" configurationId="JUnit" />
+    <history-entry file="Lambdas_LittleLetters - 2019.01.31 at 20h 22m 45s.xml">
+      <configuration name="Lambdas.LittleLetters" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21194000" />
+    <option name="totallyTimeSpent" value="23986000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="14" y="23" width="1652" height="975" extended-state="0" />
+    <frame x="563" y="23" width="1652" height="975" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16708075" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.14161491" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -234,7 +232,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22083806" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.17214043" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -242,7 +240,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3295583" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.27180067" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -402,10 +400,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/java-features/Lambdas.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#2503#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="45" column="6" lean-forward="true" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Lambdas.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="81" column="54" lean-forward="true" selection-start-line="81" selection-start-column="54" selection-end-line="81" selection-end-column="54" />
+        <state relative-caret-position="534">
+          <caret line="90" column="8" selection-start-line="90" selection-start-column="8" selection-end-line="90" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
