@@ -84,4 +84,12 @@ public class Lambdas {
         c.accept("HOW DO I TEST THIS?");
      }
 
+    @Test
+    public void AddOne(){
+        UnaryOperator<Integer> AddOne = x -> x + 1;
+        Integer c = 2;
+        Integer b = AddOne.apply(c);
+
+        assert(b == 3);
+     }
 }

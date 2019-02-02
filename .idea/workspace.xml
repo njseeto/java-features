@@ -16,8 +16,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Lambdas.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="549">
+              <caret line="92" column="23" lean-forward="true" selection-start-line="92" selection-start-column="23" selection-end-line="92" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -86,7 +89,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548966842526" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549120539296" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GenericSQL" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -104,11 +107,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Lambdas">
+  <component name="RunManager" selected="JUnit.Lambdas.AddOne">
     <configuration name="Lambdas" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-features" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Lambdas" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lambdas.AddOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-features" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Lambdas" />
+      <option name="METHOD_NAME" value="AddOne" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -133,16 +146,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lambdas.Quote" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-features" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Lambdas" />
-      <option name="METHOD_NAME" value="Quote" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Lambdas.number" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-features" />
       <option name="PACKAGE_NAME" value="" />
@@ -155,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Lambdas.AddOne" />
         <item itemvalue="JUnit.Lambdas" />
         <item itemvalue="JUnit.Lambdas.number" />
         <item itemvalue="JUnit.Lambdas.LittleLetters" />
         <item itemvalue="JUnit.Lambdas.ForEach" />
-        <item itemvalue="JUnit.Lambdas.Quote" />
       </list>
     </recent_temporary>
   </component>
@@ -175,23 +178,11 @@
       <updated>1548347149944</updated>
       <workItem from="1548347154913" duration="3863000" />
       <workItem from="1548361507682" duration="905000" />
-      <workItem from="1548363770107" duration="19479000" />
+      <workItem from="1548363770107" duration="20590000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Lambdas_ForEach - 2019.01.31 at 20h 14m 59s.xml">
-      <configuration name="Lambdas.ForEach" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Lambdas_ForEach - 2019.01.31 at 20h 17m 41s.xml">
-      <configuration name="Lambdas.ForEach" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Lambdas_LittleLetters - 2019.01.31 at 20h 18m 08s.xml">
-      <configuration name="Lambdas.LittleLetters" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Lambdas_LittleLetters - 2019.01.31 at 20h 18m 50s.xml">
-      <configuration name="Lambdas.LittleLetters" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Lambdas_LittleLetters - 2019.01.31 at 20h 18m 58s.xml">
       <configuration name="Lambdas.LittleLetters" configurationId="JUnit" />
     </history-entry>
@@ -210,9 +201,21 @@
     <history-entry file="Lambdas_LittleLetters - 2019.01.31 at 20h 29m 43s.xml">
       <configuration name="Lambdas.LittleLetters" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Lambdas - 2019.01.31 at 20h 32m 07s.xml">
+      <configuration name="Lambdas" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Lambdas_number - 2019.01.31 at 20h 32m 22s.xml">
+      <configuration name="Lambdas.number" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Lambdas_number - 2019.01.31 at 20h 33m 49s.xml">
+      <configuration name="Lambdas.number" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Lambdas - 2019.01.31 at 20h 34m 05s.xml">
+      <configuration name="Lambdas" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24247000" />
+    <option name="totallyTimeSpent" value="25358000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="28" y="23" width="1652" height="975" extended-state="0" />
@@ -415,8 +418,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Lambdas.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="549">
+          <caret line="92" column="23" lean-forward="true" selection-start-line="92" selection-start-column="23" selection-end-line="92" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
