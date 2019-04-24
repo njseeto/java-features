@@ -33,7 +33,7 @@ public class Main {
         System.out.println(collect);
         assertTrue(collect.size() == 2);
         assertTrue(collect.get(0).getValue() == 300);
-
+        assertTrue(collect.get(1).getValue() == 400);
     }
 
 }
